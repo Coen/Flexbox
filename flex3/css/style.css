@@ -1,0 +1,95 @@
+body {
+  font-family: sans-serif;
+  margin: o;
+}
+
+header {
+  background-color: cadetblue;
+  color: #fff;
+}
+
+header h1 {
+  margin: 0;
+  padding: 1rem;
+}
+
+aside {
+  padding: 1em;
+  background-color: orange;
+}
+article{
+  padding: 1em;
+}
+footer {
+  padding: 1em;
+  background-color: #444;
+  color: white;
+}
+
+footer:after {
+  content: ' Dit is voor Mobiel'
+}
+
+
+/* Lay-outten met flexbox */
+
+/* Eerst voor Smartphones */
+
+main{
+  display: flex;
+  flex-direction: column;
+}
+aside{
+  order: 1;
+}
+
+/* vanaf 26 em */
+
+@media screen and (min-width: 26em) {
+  main{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  article{
+    width: 100%;
+  }
+  aside{
+    flex: 1;
+  }
+  footer:after{
+    content: ' Dit is voor apparaten tussen 26 en 36 em.';
+  }
+
+}
+
+
+/* vanaf 36 em */
+
+@media screen and (min-width: 36em) {
+  main{
+    flex-wrap: nowrap;
+  }
+  article{
+    width: auto;
+    flex: 3;
+  }
+  aside{
+    order: 0;
+  }
+  footer:after{
+    content: ' Dit is voor apparaten groter dan 36 em.';
+  }
+
+}
+
+
+
+/* Validatie*/
+
+
+ #validatie img {
+   height: 1.5em;
+   width: auto;
+   border: 0;
+   margin: 0 .3em;
+}
