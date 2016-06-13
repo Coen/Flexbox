@@ -14,6 +14,9 @@
 ####3. Met main en aside werken.
 
 [Flex 1](http://21592.hosts.ma-cloud.nl/Bewijzenmap/periode4/fop/fl3xb0x_album/flex1/index.html)
+
 [Flex 2](http://21592.hosts.ma-cloud.nl/Bewijzenmap/periode4/fop/fl3xb0x_album/flex2/index.html)
+
 [Flex 3](http://21592.hosts.ma-cloud.nl/Bewijzenmap/periode4/fop/fl3xb0x_album/flex3/index.html)
+
 [Coen Filipsen](https://twitter.com/Coenieee)
